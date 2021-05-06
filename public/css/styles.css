@@ -1,0 +1,22 @@
+body {
+    margin-top: 0px;
+    background-color: beige;
+    text-align: center;
+}
+
+.top {
+    padding-top: 10rem;
+    position: relative;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 15%;
+    top: 10%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 15%;
+    bottom: 43%;
+}
