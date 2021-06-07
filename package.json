@@ -1,0 +1,23 @@
+{
+  "name": "htmlcss-mysite",
+  "version": "1.0.0",
+  "description": "My Personal Site where I protray my past and current projects to attach to job applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunflowerProgrammer/MPS.git"
+  },
+  "author": "Dennis Zerihun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunflowerProgrammer/MPS/issues"
+  },
+  "homepage": "https://github.com/SunflowerProgrammer/MPS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
