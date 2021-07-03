@@ -57,6 +57,7 @@ p {
 
 .horizontal-rule {
     border-top: dotted green 0.44rem;
+    background-color: white;
     width: 8%;
     margin: 8% auto;
 }
@@ -85,7 +86,15 @@ p {
     margin: 3%;
 }
 
+/* carousel */
+#projects {
+    background-color: #565360;
+}
 
+.card {
+    width: 80%;
+    margin: 0 auto;
+}
 
 .bottom {
     background-color: #565360;
@@ -102,6 +111,7 @@ p {
 }
 
 .copyright {
-    margin-bottom: 0px;
+    margin: 0;
+    padding: 32px 0;
     color: whitesmoke;
 }
