@@ -92,8 +92,12 @@ p {
 }
 
 .card {
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
+}
+
+ul {
+    list-style-position: inside;
 }
 
 .bottom {

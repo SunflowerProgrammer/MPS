@@ -21,6 +21,11 @@ app.get("/drumkit", (req,res) => {
   app.use(express.static("public"))
 });
 
+app.get("/dice-game", (req,res) => {
+  res.sendFile(__dirname + "/public/projects/dice-game/dicee.html");
+  app.use(express.static("public"));
+})
+
 app.listen(port, () => {
     console.log(port);
 });
