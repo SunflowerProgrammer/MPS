@@ -1,5 +1,4 @@
 body {
-    background-image: "public/images/background_image";
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
@@ -25,6 +24,15 @@ p {
     line-height: 2.5;
 }
 
+/******** NAVBAR ********/
+
+
+.navbar-brand {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/******** LANDING ********/
+
 .top {
     padding-top: 10rem; 
     position: relative;
@@ -42,9 +50,10 @@ p {
     bottom: 43%;
 }
 
+/******** ABOUT ME ********/
 .intro-text {
     width: 33%;
-    margin: 5% auto;
+    margin: 3% auto;
 }
 
 .middle {
@@ -53,6 +62,7 @@ p {
 
 .profile-picture {
     width: 25%;
+    margin: 0 0 3%
 }
 
 .horizontal-rule {
@@ -61,6 +71,8 @@ p {
     width: 8%;
     margin: 8% auto;
 }
+
+/******** SKILLS ********/
 
 .skill-row {
     width: 50%;
@@ -86,13 +98,19 @@ p {
     margin: 3%;
 }
 
-/* carousel */
+/******* CAROUSEL *******/
 #projects {
     background-color: #565360;
 }
 
+#projects-heading {
+    color: whitesmoke;
+    font-weight: 570;
+    padding: 6% 0 3%;
+}
+
 .card {
-    width: 65%;
+    width: 55%;
     margin: 0 auto;
 }
 

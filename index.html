@@ -13,49 +13,75 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- css-stylesheet -->
     <link rel="stylesheet" href="/main-page/css/styles.css">
-    <link rel="shortcut icon" href="/main-page/images/favicon.ico" type="image/x-icon">  
+    <link rel="shortcut icon" href="/main-page/images/favicon.ico" type="image/x-icon">
     <title>My Site</title>
 </head>
 <body>
-    <!-- landing-section -->
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MPS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- landing-section -->
+  <section id="landing">
     <div class="top">
-        <img class="top-cloud" src="/main-page/images/cloud.png" alt="">
-        <h1>I'm Dennis</h1>
-        <h2>the Sunflower<span>Pro</span>grammer </h2>
-        <img class="bottom-cloud" src="/main-page/images/cloud.png" alt="">
-        <img class="mountain" src="/main-page/images/mountain.png" alt="">
+      <img class="top-cloud" src="/main-page/images/cloud.png" alt="">
+      <h1>I'm Dennis</h1>
+      <h2>the Sunflower<span>Pro</span>grammer </h2>
+      <img class="bottom-cloud" src="/main-page/images/cloud.png" alt="">
+      <img class="mountain" src="/main-page/images/mountain.png" alt="">
     </div>
+  </section>
 
-    <!-- about-me -->
+  <!-- about-me -->
+  <section id="about">
     <div class="middle">
-        <img class="profile-picture" src="/main-page/images/SunflowerBeingHappy.png" alt="profile picture">
-        <h2>About me</h1>
-        <p class="intro-text">I'm an up and coming webdeveloper, planting ideas and helping them grow into rockstar websites!</p>
+      <img class="profile-picture" src="/main-page/images/SunflowerBeingHappy.png" alt="profile picture">
+      <h2>About me</h1>
+      <p class="intro-text">I'm an up and coming webdeveloper, planting ideas and helping them grow into rockstar websites!</p>
 
-        <hr class="horizontal-rule">
+      <hr class="horizontal-rule">
 
-        <h2>My Skills</h1>
+      <h2 id="skills">My Skills</h1>
 
-        <div class="skill-row">
-            <h3>Programming</h3>
-            <img class="skill-img1" src="/main-page/images/computer.png" alt="skill-img">
-            <p>I am an aspiring web-developer who started coding in December '20 - Covid Hobby Confirmed. Creating this page I have tried to implement some of the CSS I have learned so far, like working with classes to style effectively and manipulating elements' properties such as the border, the font-style/weight, colors & much more. I've also gotten to know divs and how to use them to structre a website and affect the space a section of a page takes up. Have a look at my Github and check out some of the projects I have created!</p>    
-        
-        </div>
+      <div class="skill-row">
+          <h3>Programming</h3>
+          <img class="skill-img1" src="/main-page/images/computer.png" alt="skill-img">
+          <p>I am an aspiring web-developer who started coding in December '20 - Covid Hobby Confirmed. Creating this page I have tried to implement some of the CSS I have learned so far, like working with classes to style effectively and manipulating elements' properties such as the border, the font-style/weight, colors & much more. I've also gotten to know divs and how to use them to structre a website and affect the space a section of a page takes up. Have a look at my Github and check out some of the projects I have created!</p>
 
-        <div class="skill-row">
-            <h3>Amazon SEO & Logic Tutor</h3>
-            <img class="skill-img2" src="/main-page/images/analytics.png" alt="skill-img">
-            <p>Since October '20 I have been working with virblatt - which is a great company who cares about sustainable & natural fashion. I am helping them with keyword-research for Amazon using tools like Helium10 & Amalyze, creating Excel-sheets for their products that allow for a systematic approach of understanding which keywords fit to products and track their success.</p>    
-        </div>
+      </div>
+
+      <div class="skill-row">
+          <h3>Amazon SEO & Logic Tutor</h3>
+          <img class="skill-img2" src="/main-page/images/analytics.png" alt="skill-img">
+          <p>Since October '20 I have been working with virblatt - which is a great company who cares about sustainable & natural fashion. I am helping them with keyword-research for Amazon using tools like Helium10 & Amalyze, creating Excel-sheets for their products that allow for a systematic approach of understanding which keywords fit to products and track their success.</p>
+      </div>
     </div>
-        <hr class="horizontal-rule">
-
+    <hr class="horizontal-rule">
+  </section>
 
     <!-- projects-section -->
     <section id="projects">
         <div class="container">
-            <h2>My Projects</h2>
+            <h2 id="projects-heading">My Projects</h2>
             <div id="projectCarousel" class="carousel slide" data-bs-interval="false" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -119,9 +145,9 @@
 
     <div class="bottom">
         <div class="media">
-            <a class="footer-link" href="">Website</a>
-            <a class="footer-link" href="">Instagram</a>
-            <a class="footer-link" href="">Website</a>
+            <a class="footer-link" href="https://github.com/SunflowerProgrammer">GitHub</a>
+            <a class="footer-link" href="https://www.instagram.com/denniszerihun/">Instagram</a>
+            <a class="footer-link" href="/contact">Contact</a>
         </div>
         <p class="copyright">Copyright 2021 Dennis Zerihun</p>
     </div>
