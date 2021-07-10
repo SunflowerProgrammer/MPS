@@ -41,14 +41,21 @@ p {
 .top-cloud {
     position: absolute;
     right: 15%;
-    top: 10%;
+    top: 4.5rem;
 }
 
 .bottom-cloud {
     position: absolute;
     left: 15%;
-    bottom: 43%;
+    top: 21rem;
 }
+
+@media (max-width: 768px) {
+    .mountain {
+        width: 66%;
+    }
+}
+
 
 /******** ABOUT ME ********/
 .intro-text {

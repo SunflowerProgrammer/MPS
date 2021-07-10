@@ -55,6 +55,12 @@ p {
     padding-top: 1.5%
 }
 
+@media (max-width: 768px) {
+    .top-row {
+        text-align: center;
+    }
+}
+
 .download-btn {
     margin: 5% 3% 5% 0;
 }
@@ -73,6 +79,17 @@ p {
     -webkit-transform: rotate(25deg);
     -o-transform: rotate(25deg);
     width: 55%;
+}
+
+@media (max-width: 768px) {
+    .top-img {
+        position: relative;
+        transform: rotate(0);
+        -ms-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -o-transform: rotate(0);
+    }
 }
 
 /* Features  */

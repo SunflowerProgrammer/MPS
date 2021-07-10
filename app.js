@@ -18,11 +18,16 @@ app.get("/tindog", (req,res) => {
 
 app.get("/drumkit", (req,res) => {
   res.sendFile(__dirname + "/public/projects/drumkit/index.html");
-  app.use(express.static("public"))
+  app.use(express.static("public"));
 });
 
 app.get("/dice-game", (req,res) => {
   res.sendFile(__dirname + "/public/projects/dice-game/dicee.html");
+  app.use(express.static("public"));
+});
+
+app.get("/simon-game", (req,res) => {
+  res.sendFile(__dirname + "/public/projects/simon-game/index.html");
   app.use(express.static("public"));
 })
 
