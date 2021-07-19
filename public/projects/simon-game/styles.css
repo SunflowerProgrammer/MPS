@@ -1,3 +1,41 @@
-.active {
-    border: 1rem solid purple;
+.game-over {
+    background-color: red;
 }
+
+.game-fields {
+    text-align: center;
+}
+
+
+.button {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  @media (max-width: 768px) {
+      .button {
+          height: 10rem;
+          width: 10rem;
+      }
+  }
+
+  #red {
+      background-color: red;
+  }
+
+  #green {
+      background-color: green;
+  }
+
+  #blue {
+      background-color: blue;
+  }
+
+  #yellow {
+      background-color: yellow;
+  }
+

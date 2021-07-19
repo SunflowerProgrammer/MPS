@@ -5,18 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Simon Game</title>
+    
+    <!-- styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="/projects/simon-game/styles.css">
+    
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>The Simon Game</h1>
-    <img class="red" src="/projects/simon-game/images/red.png" alt="">
-    <img class="blue" src="/projects/simon-game/images/blue.png" alt="">
-    <img class="green" src="/projects/simon-game/images/green.png" alt="">
-    <img class="yellow" src="/projects/simon-game/images/yellow.png" alt="">
 
-    <button>Start The Game!</button>
+    <!-- navigation & heading -->
+<section id="heading">
+    <div class="container text-center">
+        <h1>The Simon Game</h1>
+        <h3 id="level"></h3>
+    </div>
+</section>
+
+    <!-- gaming section -->
+<section id="gaming">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-6">
+                <button id="red" class="btn button red"></button>
+            </div>
+            <div class="col-6">
+                <button id="green" class="btn button green"></button>
+            </div>
+            <div class="col-6">
+                <button id="blue" class="btn button blue"></button>
+            </div>
+            <div class="col-6">
+                <button id="yellow" class="btn button yellow"></button>
+            </div>
+        </div>
+        <button class="btn initiate">Start The Game!</button>
+    </div>
+
+</section>
+
+    <!-- footer -->
+<section id="footer">
+
+</section>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="/projects/simon-game/index.js"></script>
+    <script src="/projects/simon-game/game.js"></script>
 </body>
 
 </html>

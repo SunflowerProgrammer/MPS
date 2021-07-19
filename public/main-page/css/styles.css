@@ -24,6 +24,14 @@ p {
     line-height: 2.5;
 }
 
+a {
+    color: #565360;
+}
+
+a:hover {
+    color: black;
+}
+
 /******** NAVBAR ********/
 
 
